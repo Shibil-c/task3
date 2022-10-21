@@ -20,6 +20,7 @@ function displayImage(value){
     Object.keys(breed).forEach((key) => {
     ar.push(key);
     });
+    ar.sort();
     for(let i=0;i<ar.length;i++){
       for(let j = 0; j<ar.length;j++){
         remove(div);
