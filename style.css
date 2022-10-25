@@ -6,8 +6,6 @@
     position: absolute;
     justify-self: flex-start;
     top:0px;
-    margin-left: auto;
-    margin-right: auto;
 }
 form.search {
     border: none;
@@ -26,17 +24,16 @@ form.search {
 }
 .list{
   display:grid;
-  grid-template-columns: repeat(auto-fit, 240px);
+  grid-template-columns: repeat(auto-fit, 200px);
   padding-right: 0%;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: center;
   padding-top: 40px;
   overflow-y:scroll;
   overflow-x: hidden;
 }
 .list img{
-  height: 240px;
-  width: 240px;
+  height: 200px;
+  width:200px;
 }
 
 .txtover { 
